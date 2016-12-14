@@ -1,0 +1,194 @@
+
+[class*="col-"]{
+    width:100%;
+    float:left;
+}
+body{
+    background-image: url("http://www.wallpaperswidefree.com/images/Pawan-Kalyan-in-Dabang-movies-hd-wallpapers.jpg");
+    background-size: contain;
+}
+.head:after{
+    content: "";
+    clear: both;
+    display: block;
+    margin: auto;
+}
+header{
+    background-color: brown;
+}
+.top{
+    text-align: center;
+}
+.profile{
+    float: right;
+    display:none;
+}
+.menu{
+    background-color: darkgray;
+    margin: 0px;
+    margin-top:-16px;
+    display:none;
+}
+.menu ul li{
+    list-style-type: none;
+    display:inline-block;
+    border:1px solid black;
+    width:23%;
+    text-align: center;
+    padding:0px;
+}
+li a{
+    text-decoration: none;
+}
+
+.one{
+    display: block;
+    width:100%;
+    text-align: center;
+    background-color: darkgray;
+}
+.one a{
+    text-decoration: none;
+    font-size:1.7em;
+    font-weight: bold;
+    color:brown;
+}
+.pro{
+    background-color:darkseagreen;
+}
+.image{
+    background-image:url("http://wallpapers.filmibeat.com/ph-1024x768/2015/06/pawan-kalyan_143452128280.jpg");
+    background-size: contain;
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.name{
+    color:darkslateblue;
+    font:1.5em;
+    text-align: center;
+}
+.bio{
+    background-color:wheat;
+    display: block;
+}
+.bio h1{
+    text-align: center;
+    color:brown;
+    font:1.5em;
+}
+.bio p{
+    font-family: cursive;
+}
+.grid{
+    background-color: darkseagreen;
+}
+.grid h1{
+    text-align: center;
+    color:brown;
+    font:1.5em;
+}
+.grid2{
+    display: none;
+}
+.pic img{
+    width:100%;
+    height:300px;
+}
+.roles{
+    background-color: darkseagreen;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+.roles h1{
+    text-align: center;
+    color: brown;
+    font:1.5em;
+}
+
+.lin{
+    background-color: darkcyan;
+    margin-top: 10px;
+}
+.award1,.award2{
+    text-align: center;
+    border:1px solid black;
+    font-family: cursive;
+}
+.links{
+    display: none;
+}
+.link1,.link2,.link3,.link4{
+    text-align: center;
+    text-decoration: none;
+    border:1px solid black;
+    padding:4px;
+}
+.links a{
+    text-decoration: none;
+    font-size: 1em;
+}
+.links a:hover{
+    color:lawngreen;
+    font-weight: bold;
+}
+.data{
+    background-color: brown;
+    margin-top: 15px;
+    text-align: center;
+}
+.onelink{
+    display:block;
+    text-align: center;
+    background-color: darkslateblue;
+    margin-top: 10px;
+}
+.onelink a{
+    text-decoration: none;
+    font-weight: bold;
+    color: darkred;
+    font-size: 1.3em;
+}
+.onelink a:hover{
+    color:chartreuse;
+}
+
+@media only screen and (min-width: 768px) {
+    body{
+        width: 90%;
+        margin: auto;
+ }
+    .profile{
+        display: block;
+    }
+    .mobi{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+    .links{
+        display: block;
+    }
+    .pic img{
+        width:250px;
+        height:150px;
+    }
+    .onelink{
+        display: none;
+    }
+    .grid2{display: block;}
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+}
